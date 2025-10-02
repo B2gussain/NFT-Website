@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
     return (
-        <div className="flex justify-center md:flex-row flex-col items-center py-4 p-6 gap-8">
+        <div className="flex justify-center  md:flex-row flex-col items-center py-4 p-6 gap-8">
             <div className="flex justify-center items-center ">
                 <img
                     src="/images/ex3-bg.png"

@@ -4,6 +4,10 @@ import Herosection from "./components/Herosection";
 import CollectionSection from "./components/CollectionSection";
 import AboutSection from "./components/AboutSection";
 import TopCreator from "./components/TopCreator";
+import Services from "./components/Services";
+import Gallery from "./components/Gallery";
+import CtaSection from "./components/CtaSection";
+import Footer from "./components/Footer";
 
 const page = () => {
     return (
@@ -13,6 +17,10 @@ const page = () => {
             <CollectionSection/>
             <AboutSection/>
             <TopCreator/>
+            <Services/>
+            <Gallery/>
+            <CtaSection/>
+            <Footer/>
         </div>
     );
 };

@@ -14,8 +14,8 @@ const Navbar = () => {
       <div className="md:flex hidden items-center space-x-10">
         <ul className="flex space-x-6 list-none">
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Home</li>
-          <li className="font-semibold text-lg cursor-pointer hover:text-[#f0f0f0] transition">Shop</li>
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">About</li>
+          <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Services</li>
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Contact</li>
         </ul>
         <button className="border-2 rounded-full font-semibold border-[#ADD824] text-[#ADD824] bg-[#ADD824]/10 py-2 px-6 hover:bg-[#cb00dd]/20 transition">
@@ -42,8 +42,8 @@ const Navbar = () => {
       >
         <ul className="flex flex-col justify-center gap-4 items-center text-center list-none">
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Home</li>
-          <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Shop</li>
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">About</li>
+          <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Services</li>
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Contact</li>
         </ul>
         <button className="border-2 rounded-full font-semibold border-[#ADD824] text-[#ADD824] bg-[#ADD824]/10 py-2 px-6 hover:bg-[#cb00dd]/20 transition">
