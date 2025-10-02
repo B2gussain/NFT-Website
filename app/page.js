@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Herosection from "./components/Herosection";
 import CollectionSection from "./components/CollectionSection";
 import AboutSection from "./components/AboutSection";
+import TopCreator from "./components/TopCreator";
 
 const page = () => {
     return (
@@ -11,6 +12,7 @@ const page = () => {
             <Herosection/>
             <CollectionSection/>
             <AboutSection/>
+            <TopCreator/>
         </div>
     );
 };
