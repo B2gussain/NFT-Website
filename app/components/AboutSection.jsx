@@ -11,7 +11,7 @@ const AboutSection = () => {
                 />
             </div>
             <div className="max-w-xl md:w-xl">
-                <h2 className="text-2xl font-bold from-[#ADD824]/50 via-[white]/80 to-[#1C3603]/50 bg-gradient-to-br bg-clip-text text-transparent">About Us</h2>
+                <h2 className="text-2xl font-bold">About Us</h2>
                 <p>
                     we’re passionate about transforming digital creativity into
                     real-world value. Our mission is to empower artists,

@@ -84,7 +84,7 @@ const CollectionSection = () => {
                         <div className="m-2">{idx + 1}</div>
                         <img
                             src={item.img}
-                            className="h-15 rounded-xl w-15"
+                            className="h-15 rounded-xl w-15 filter saturate-[1.2]"
                             alt=""
                         />
                         <div className="flex flex-col w-full pr-2">
