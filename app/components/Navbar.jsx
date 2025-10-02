@@ -8,13 +8,13 @@ const Navbar = () => {
   return (
     <div className="w-full relative flex justify-between   py-4 items-center px-10 bg-black text-white">
       {/* Logo */}
-      <div className="font-bold text-3xl select-none">̷N̷̷F̷̷T̷'̷s̷</div>
+      <div className="font-bold text-3xl select-none  from-[#ADD824]/50 drop-shadow-lg   drop-shadow-[#EDAC77]/50 to-[white] bg-gradient-to-br bg-clip-text text-transparent">̷N̷̷F̷̷T̷'̷s̷</div>
 
       {/* Desktop Menu */}
       <div className="md:flex hidden items-center space-x-10">
         <ul className="flex space-x-6 list-none">
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Home</li>
-          <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Shop</li>
+          <li className="font-semibold text-lg cursor-pointer hover:text-[#f0f0f0] transition">Shop</li>
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">About</li>
           <li className="font-semibold text-lg cursor-pointer hover:text-[#ADD824] transition">Contact</li>
         </ul>
